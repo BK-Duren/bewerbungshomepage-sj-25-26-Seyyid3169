@@ -9,9 +9,7 @@ html, body {
  font-size:12pt;
  }
        
-
 #kopfbereich {
-
   position:fixed;           
   top:0;                    
   left:0;                    
@@ -39,11 +37,6 @@ html, body {
   top:100px;                
   padding-left:210px;        
   padding-right:210px;
-  .header-image {
-content:url(passbild.jpg); // 
-width:200px;  //
-float:left;  // 
-margin:5px;
   padding-top:20px;          
   padding-bottom:60px;       
   border: 1px solid #ccc;    
@@ -101,11 +94,11 @@ font-weight:bold;
 /*  Linkformatierung für das Menü übergreifend       */
 .naviformat a, button {
   	font-family: 'Montserrat', sans-serif;
-  	text-transform:uppercase;	! Verwende Großbuchstaben;
-font-size:90%;            	! Festlegung des Schriftgröße;
-	font-weight:700;		      ! Festlegung Fettschrift für Montserrat;
-	color: rgb(0,0,0);		! Festlegung des Schriftfarbe (schwarz);
-	display: block;			! Art der Anzeige als Blockelement;
+  	text-transform:uppercase;	
+font-size:90%;            	
+	font-weight:700;		     
+	color: rgb(0,0,0);		
+	display: block;			
 	transition: all 0.3s ease-out 0s; ! Definition Übergang von Normal zu Hover;
 	text-decoration:none;		! Keinen Unterstrich unterhalb des Menütitels;
   	line-height: 20px;		! Höhe der Zeile wird festgelegt;
