@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Quintessential';
+  font-style: normal;
+  font-weight: 400;
+  src: url(Quintessential-Regular.ttf) format('truetype');
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Quintessential';
+  font-style: normal;
+  font-weight: 700;
+  src: url(Quintessential-Regular.ttf) format('truetype');
+}

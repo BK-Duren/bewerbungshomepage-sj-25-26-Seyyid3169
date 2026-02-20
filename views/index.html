@@ -13,13 +13,16 @@
 <link rel="stylesheet" href="/style.css" />
     <!-- import the webpage's javascript file -->
     <script src="/script.js" defer></script>
-       <!-- Einbindung der Javascript-Bibliothek JQUERY von GOOGLE -->
-       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <!-- import the webpage's fonts -->
+    <link rel="stylesheet" href="/fonts.css" />
   </head>
   <body onload="setTimeout(function() {setActiveMenu('#main_menu_item_home');}, 1000);">
 <div id="kopfbereich">
-
+ <p class="header-title">Dies ist eine Headerüberschrift</p>
 </div><!-- Ende kopfbereich -->
+         <div id="logobereich">
+              <img src="Logo.jpg" class="text-image-left" alt="Bild im Text">
+         </div> <!-- Ende logobereich -->
  <div id="navibereich">
 <ul id="nav" class="naviformat mainnav">
 <li><a id="main_menu_item_home" class="" href="index.html">HOME</a></li>
