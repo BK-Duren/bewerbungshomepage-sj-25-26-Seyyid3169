@@ -18,7 +18,7 @@
   </head>
   <body onload="setTimeout(function() {setActiveMenu('#main_menu_item_home');}, 1000);">
 <div id="kopfbereich">
- <p class="header-title">Dies ist eine Headerüberschrift</p>
+ <p class="header-title">Fleisch PUR</p>
 </div><!-- Ende kopfbereich -->
          <div id="logobereich">
               <img src="Logo.jpg" class="text-image-left" alt="Bild im Text">
@@ -30,11 +30,19 @@
 <li><a id="main_menu_item_schulbildung" class="" href="schulbildung.html">SCHULBILDUNG</a></li>
 <li><a id="main_menu_item_berufsbildung" class="" href="berufsbildung.html">BERUFSBILDUNG</a></li>
 <li><a id="main_menu_item_kontakt" class="" href="kontakt.html">KONTAKT</a></li>
+<!-- Load the element definition for markdown-->
+   <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@2/dist/zero-md.min.js"></script>
 </ul>
  </div>
     <!-- Ende navibereich -->
 <div id="textbereich">
        <div class="content-block">
+        <zero-md src="content-index.md">
+        <template>
+        <!-- Load external stylesheets with a `<link rel="stylesheet">` tag -->
+         <link rel="stylesheet" href="/markdown-style.css" />
+        </template>
+      </zero-md>
        </div><!-- Ende content-block -->
 </div><!-- Ende textbereich -->
 
