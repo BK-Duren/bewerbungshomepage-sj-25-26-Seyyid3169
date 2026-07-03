@@ -65,7 +65,15 @@ html, body {
  background-color: 	#cd0000;      
  height:50px;                 
  z-index:2;                   
-} 
+}
+
+#fussbereich p {
+  margin: 0;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 10pt;
+  color: #ffffff;
+}
 
 /*  Höhe des Contentbereichs festlegen (wichtig!)    */                    
 .content-block {
